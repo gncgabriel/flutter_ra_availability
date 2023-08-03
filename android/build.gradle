@@ -46,5 +46,5 @@ android {
 }
 
 dependencies {
-    implementation 'com.google.ar:core:1.38.0'
+    implementation(name: 'arcore_client', ext:'aar')
 }
