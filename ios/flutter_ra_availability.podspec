@@ -1,9 +1,9 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint ra_availability.podspec` to validate before publishing.
+# Run `pod lib lint flutter_ra_availability.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'ra_availability'
+  s.name             = 'flutter_ra_availability'
   s.version          = '0.0.1'
   s.summary          = 'A new Flutter plugin project.'
   s.description      = <<-DESC

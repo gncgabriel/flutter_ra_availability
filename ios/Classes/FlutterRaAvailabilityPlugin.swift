@@ -2,10 +2,10 @@ import Flutter
 import UIKit
 import ARKit
 
-public class RaAvailabilityPlugin: NSObject, FlutterPlugin {
+public class FlutterRaAvailabilityPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "ra_availability", binaryMessenger: registrar.messenger())
-    let instance = RaAvailabilityPlugin()
+    let instance = FlutterRaAvailabilityPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

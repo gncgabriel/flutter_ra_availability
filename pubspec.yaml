@@ -1,6 +1,6 @@
 name: flutter_ra_availability
 description: Plugin to check if AR is available on android and ios devices.
-version: 1.0.0-arcore-client
+version: 1.0.2-arcore-client
 repository: https://github.com/ricardodalarme/flutter_ra_availability
 homepage: https://github.com/ricardodalarme/flutter_ra_availability
 issues: https://github.com/ricardodalarme/flutter_ra_availability/issues
@@ -22,7 +22,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.ra_availability
-        pluginClass: RaAvailabilityPlugin
+        package: com.example.flutter_ra_availability
+        pluginClass: FlutterRaAvailabilityPlugin
       ios:
-        pluginClass: RaAvailabilityPlugin
+        pluginClass: FlutterRaAvailabilityPlugin

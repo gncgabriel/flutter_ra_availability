@@ -1,4 +1,4 @@
-group 'com.example.ra_availability'
+group 'com.example.flutter_ra_availability'
 version '1.0-SNAPSHOT'
 
 buildscript {
